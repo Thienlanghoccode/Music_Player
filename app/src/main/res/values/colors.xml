@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple">#9B51E0</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="primary">#383b49</color>
+    <color name="secondary">#181b2c</color>
+    <color name="editText">#292E4B</color>
+    <color name="startColor">#ed8770</color>
+    <color name="endColor">#d95190</color>
+    <color name="bottom_nav_background">#282828</color>
+    <color name="medium_gray">#535353</color>
+    <color name="light_gray">#B3B3B3</color>
+    <color name="disabled_button">#424242</color>
+    <color name="disabled_seekbar">#3F3F3F</color>
+    <color name="gray_light">#AAAAAA</color>
+    <color name="dark_gray">#1E1E1E</color>
+    <color name="button_selected">#4CAF50</color>
+    <color name="shadow_color">#66000000</color>
+    <color name="border_color">#44FFFFFF</color>
+</resources>

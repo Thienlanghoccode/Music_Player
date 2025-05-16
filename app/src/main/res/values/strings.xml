@@ -1,0 +1,101 @@
+<resources>
+    <string name="app_name">Music Player</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="user_name">Username</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="already_have_an_account">Already have an account?</string>
+    <string name="sign_in">Sign In</string>
+    <string name="don_t_have_an_account">Don\'t have an account?</string>
+    <string name="search_hint">Search for songs, artists...</string>
+    <string name="recommended_today">Recommended Today</string>
+    <string name="recently_played">Recently Played</string>
+    <string name="recommended_content">Recommended Content</string>
+    <string name="top_charts">Top Charts</string>
+    <string name="song_list">Song List</string>
+    <string name="search_title">Search Songs</string>
+    <string name="filter_all">All</string>
+    <string name="filter_music">Music</string>
+    <string name="filter_podcasts">Podcasts</string>
+    <string name="personal_button_description">Profile</string>
+    <string name="default_song_title">No song selected</string>
+    <string name="default_song_artist">No artist</string>
+    <string name="play_pause_description">Play or pause music</string>
+
+    <string name="my_playlist_title">My Playlist</string>
+    <string name="view_all">View All</string>
+    <string name="recently_played_title">Recently Played</string>
+    <string name="son_tung_mtp_title">Sơn Tùng M-TP</string>
+    <string name="hieuthuhai_title">HIEUTHUHAI</string>
+    <string name="featured_songs_title">Featured Songs</string>
+    <string name="rending_songs_title">Trending Songs</string>
+    <string name="back_description">Back</string>
+    <string name="section_title_placeholder">Section Title</string>
+
+    <string name="stop_description">Stop Music</string>
+    <string name="nav_home">Home</string>
+    <string name="nav_search">Search</string>
+    <string name="nav_library">Library</string>
+    <string name="nav_premium">Premium</string>
+    <string name="no_music_selected">No song selected</string>
+    <string name="back_button">Back</string>
+    <string name="play_pause_button">Play/Pause</string>
+    <string name="next_button">Next</string>
+    <string name="prev_button">Previous</string>
+    <string name="song_title">Song Title</string>
+    <string name="song_artist">Artist Name</string>
+    <string name="no_time">0:00</string>
+    <string name="trending_songs_title">Trending Songs</string>
+    <string name="user">Account</string>
+    <string name="information">Information</string>
+    <string name="log_out">Log Out</string>
+    <string name="info">
+        Dream Music is a music streaming app with many exciting features such as:\n
+        Login, registration, and password recovery for users who forget\n
+        Ability to play music inside the app or even after exiting\n
+        Beautiful, friendly, and user-friendly interface\n
+        A large and diverse music library with many genres
+    </string>
+    <string name="user_no_activity">
+        No recent activity
+    </string>
+    <string name="cancel">Cancel</string>
+    <string name="save">Save</string>
+    <string name="update_account">Update Account</string>
+    <string name="following">Following 0</string>
+    <string name="update">Update</string>
+    <string name="explore">Let\'s explore new music now!</string>
+    <string name="info_header">Application Information</string>
+    <string name="tab_all">All</string>
+    <string name="tab_music">Music</string>
+    <string name="tab_podcasts">Podcasts</string>
+
+    <string name="navigation_drawer_open">Open</string>
+    <string name="navigation_drawer_close">Close</string>
+
+    <string name="sign_up">Sign Up</string>
+    <string name="reset_password">Reset Password</string>
+    <string name="reset_password_text">Please enter your new password to reset it</string>
+    <string name="forget_password">Forgot Password</string>
+    <string name="go_back">Go Back</string>
+    <string name="reset_password_title">Don\'t worry, we just need your registered email address</string>
+
+    <string name="premium_title">Listen without limits. Try Premium now!</string>
+    <string name="premium_question">Why join Premium?</string>
+    <string name="premium_list_1">• Ad-free music listening</string>
+    <string name="premium_list_2">• Download to listen offline</string>
+    <string name="premium_list_3">• Cancel anytime</string>
+    <string name="premium_title_2">Available Plans</string>
+    <string name="premium_price_1">Individual - ₫59,000 for 2 months</string>
+    <string name="premium_price_info_1">₫59,000 / month after\nPremium account</string>
+    <string name="premium_button_1">Choose Individual Plan</string>
+    <string name="premium_price_2">Duo - ₫79,000 / month</string>
+    <string name="premium_price_info_2">2 Premium accounts\nCancel anytime</string>
+    <string name="premium_button_2">Choose Duo Plan</string>
+    <string name="premium_price_3">Family - ₫99,000 / month</string>
+    <string name="premium_price_info_3">Up to 6 accounts\nParental controls included</string>
+    <string name="premium_button_3">Choose Family Plan</string>
+
+</resources>

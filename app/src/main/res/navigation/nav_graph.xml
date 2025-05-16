@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/signInFragment">
+
+    <fragment
+        android:id="@+id/signInFragment"
+        android:name="com.example.musicapp.Fragments.SignInFragment"
+        android:label="Sign In">
+        <action
+            android:id="@+id/action_signInFragment_to_signUpFragment"
+            app:destination="@id/signUpFragment" />
+        <action
+            android:id="@+id/action_signInFragment_to_resetPasswordFragment"
+            app:destination="@id/resetPasswordFragment" />
+        <action
+            android:id="@+id/action_signInFragment_to_homeFragment"
+            app:destination="@id/homeFragment"
+            app:popUpTo="@id/signInFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/signUpFragment"
+        android:name="com.example.musicapp.Fragments.SignUpFragment"
+        android:label="Sign Up">
+        <action
+            android:id="@+id/action_signUpFragment_to_signInFragment"
+            app:destination="@id/signInFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/resetPasswordFragment"
+        android:name="com.example.musicapp.Fragments.ResetPasswordFragment"
+        android:label="Reset Password">
+        <action
+            android:id="@+id/action_resetPasswordFragment_to_signInFragment"
+            app:destination="@id/signInFragment" />
+        <action
+            android:id="@+id/action_resetPasswordFragment_to_resetPasswordFormFragment"
+            app:destination="@id/resetPasswordFormFragment" />
+        <action
+            android:id="@+id/action_resetPasswordFragment_to_signInFragment2"
+            app:destination="@id/signInFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/resetPasswordFormFragment"
+        android:name="com.example.musicapp.Fragments.ResetPasswordFragment"
+        android:label="Reset Password Form">
+        <action
+            android:id="@+id/action_resetPasswordFormFragment_to_signInFragment"
+            app:destination="@id/signInFragment" />
+        <action
+            android:id="@+id/action_resetPasswordFormFragment_to_resetPasswordFragment"
+            app:destination="@id/resetPasswordFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.musicapp.Fragments.HomeFragment"
+        android:label="Home">
+        <action
+            android:id="@+id/action_homeFragment_to_artistSongsFragment"
+            app:destination="@id/artistSongsFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_musicPlayerFragment"
+            app:destination="@id/musicPlayerFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_searchFragment"
+            app:destination="@id/searchFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_libraryFragment"
+            app:destination="@id/libraryFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_premiumFragment"
+            app:destination="@id/premiumFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_infoFragment"
+            app:destination="@id/infoFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_UserFragment"
+            app:destination="@id/UserFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_signInFragment"
+            app:destination="@id/signInFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/infoFragment"
+        android:name="com.example.musicapp.Fragments.InfoFragment"
+        android:label="Info Fragment">
+    </fragment>
+
+    <fragment
+        android:id="@+id/UserFragment"
+        android:name="com.example.musicapp.Fragments.UserFragment"
+        android:label="User Fragment">
+        <action
+            android:id="@+id/action_UserFragment_to_updateUserFragment"
+            app:destination="@id/updateUserFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/updateUserFragment"
+        android:name="com.example.musicapp.Fragments.UpdateUserFragment"
+        android:label="Update user Fragment">
+        <action
+            android:id="@+id/action_updateUserFragment_to_UserFragment"
+            app:destination="@id/UserFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/searchFragment"
+        android:name="com.example.musicapp.Fragments.SearchFragment"
+        android:label="Search">
+        <action
+            android:id="@+id/action_searchFragment_to_musicPlayerFragment"
+            app:destination="@id/musicPlayerFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/artistSongsFragment"
+        android:name="com.example.musicapp.Fragments.ArtistSongsFragment"
+        android:label="Artist Songs">
+        <action
+            android:id="@+id/action_artistSongsFragment_to_musicPlayerFragment"
+            app:destination="@id/musicPlayerFragment" />
+        <action
+            android:id="@+id/action_artistSongsFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/musicPlayerFragment"
+        android:name="com.example.musicapp.Fragments.MusicPlayerFragment"
+        android:label="Music Player" />
+
+    <fragment
+        android:id="@+id/libraryFragment"
+        android:name="com.example.musicapp.Fragments.LibraryFragment"
+        android:label="Library">
+        <action
+            android:id="@+id/action_libraryFragment_to_playlist1Fragment"
+            app:destination="@id/playlist1Fragment" />
+        <action
+            android:id="@+id/action_libraryFragment_to_playlist2Fragment"
+            app:destination="@id/playlist2Fragment" />
+        <action
+            android:id="@+id/action_libraryFragment_to_playlist3Fragment"
+            app:destination="@id/playlist3Fragment" />
+        <action
+            android:id="@+id/action_libraryFragment_to_playlist4Fragment"
+            app:destination="@id/playlist4Fragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/playlist1Fragment"
+        android:name="com.example.musicapp.Fragments.Playlist1Fragment"
+        android:label="Top Songs Vietnam">
+        <action
+            android:id="@+id/action_playlist1Fragment_to_musicPlayerFragment"
+            app:destination="@id/musicPlayerFragment"
+            app:popUpTo="@id/playlist1Fragment"
+            app:popUpToInclusive="false" />
+        <action
+            android:id="@+id/action_playlist1Fragment_to_libraryFragment"
+            app:destination="@id/libraryFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/playlist2Fragment"
+        android:name="com.example.musicapp.Fragments.Playlist2Fragment"
+        android:label="Top 50 Vietnam">
+        <action
+            android:id="@+id/action_playlist2Fragment_to_musicPlayerFragment"
+            app:destination="@id/musicPlayerFragment"
+            app:popUpTo="@id/playlist2Fragment"
+            app:popUpToInclusive="false" />
+        <action
+            android:id="@+id/action_playlist2Fragment_to_libraryFragment"
+            app:destination="@id/libraryFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/playlist3Fragment"
+        android:name="com.example.musicapp.Fragments.Playlist3Fragment"
+        android:label="Top 50 Global">
+        <action
+            android:id="@+id/action_playlist3Fragment_to_musicPlayerFragment"
+            app:destination="@id/musicPlayerFragment"
+            app:popUpTo="@id/playlist3Fragment"
+            app:popUpToInclusive="false" />
+        <action
+            android:id="@+id/action_playlist3Fragment_to_libraryFragment"
+            app:destination="@id/libraryFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/playlist4Fragment"
+        android:name="com.example.musicapp.Fragments.Playlist4Fragment"
+        android:label="Top Songs Global">
+        <action
+            android:id="@+id/action_playlist4Fragment_to_musicPlayerFragment"
+            app:destination="@id/musicPlayerFragment"
+            app:popUpTo="@id/playlist4Fragment"
+            app:popUpToInclusive="false" />
+        <action
+            android:id="@+id/action_playlist4Fragment_to_libraryFragment"
+            app:destination="@id/libraryFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/premiumFragment"
+        android:name="com.example.musicapp.Fragments.PreniumFragment"
+        android:label="Premium" />
+</navigation>

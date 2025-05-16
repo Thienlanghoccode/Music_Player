@@ -1,0 +1,101 @@
+<resources>
+    <string name="app_name">reproductor de música</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hola fragmento en blanco</string>
+    <string name="user_name">Nombre de usuario</string>
+    <string name="email">Correo electrónico</string>
+    <string name="password">Contraseña</string>
+    <string name="confirm_password">Confirmar contraseña</string>
+    <string name="already_have_an_account">¿Ya tienes una cuenta?</string>
+    <string name="sign_in">Iniciar sesión</string>
+    <string name="don_t_have_an_account">¿No tienes una cuenta?</string>
+    <string name="search_hint">Buscar canciones, artistas...</string>
+    <string name="recommended_today">Recomendado hoy</string>
+    <string name="recently_played">Reproducido recientemente</string>
+    <string name="recommended_content">Contenido recomendado</string>
+    <string name="top_charts">Top de éxitos</string>
+    <string name="song_list">Lista de canciones</string>
+    <string name="search_title">Buscar canciones</string>
+    <string name="filter_all">Todos</string>
+    <string name="filter_music">Música</string>
+    <string name="filter_podcasts">Podcasts</string>
+    <string name="personal_button_description">Perfil personal</string>
+    <string name="default_song_title">Ninguna canción seleccionada</string>
+    <string name="default_song_artist">Sin artista</string>
+    <string name="play_pause_description">Reproducir o pausar música</string>
+
+    <string name="my_playlist_title">Mi lista de reproducción</string>
+    <string name="view_all">Ver todo</string>
+    <string name="recently_played_title">Reproducido recientemente</string>
+    <string name="son_tung_mtp_title">Sơn Tùng M-TP</string>
+    <string name="hieuthuhai_title">HIEUTHUHAI</string>
+    <string name="featured_songs_title">Canciones destacadas</string>
+    <string name="rending_songs_title">Canciones populares</string>
+    <string name="back_description">Atrás</string>
+    <string name="section_title_placeholder">Título de la sección</string>
+
+    <string name="stop_description">Detener música</string>
+    <string name="nav_home">Inicio</string>
+    <string name="nav_search">Buscar</string>
+    <string name="nav_library">Biblioteca</string>
+    <string name="nav_premium">Premium</string>
+    <string name="no_music_selected">Ninguna canción seleccionada</string>
+    <string name="back_button">Atrás</string>
+    <string name="play_pause_button">Reproducir/Pausar</string>
+    <string name="next_button">Siguiente</string>
+    <string name="prev_button">Anterior</string>
+    <string name="song_title">Título de la canción</string>
+    <string name="song_artist">Nombre del artista</string>
+    <string name="no_time">0:00</string>
+    <string name="trending_songs_title">Canciones populares</string>
+    <string name="user">Cuenta</string>
+    <string name="information">Información</string>
+    <string name="log_out">Cerrar sesión</string>
+    <string name="info">
+        Dream Music es una aplicación de transmisión de música con muchas funciones interesantes, como:\n
+        Funciones de inicio de sesión, registro y recuperación de contraseña para usuarios que lo olviden\n
+        Posibilidad de reproducir música dentro de la aplicación o incluso después de salir\n
+        Interfaz bonita, amigable y fácil de usar\n
+        Una biblioteca musical extensa y diversa en muchos géneros diferentes
+    </string>
+    <string name="user_no_activity">
+        Sin actividad reciente
+    </string>
+    <string name="cancel">Cancelar</string>
+    <string name="save">Guardar</string>
+    <string name="update_account">Actualizar cuenta</string>
+    <string name="following">Siguiendo 0</string>
+    <string name="update">Actualizar</string>
+    <string name="explore">¡Explora nueva música ahora!</string>
+    <string name="info_header">Información sobre la aplicación</string>
+    <string name="tab_all">TODOS</string>
+    <string name="tab_music">Música</string>
+    <string name="tab_podcasts">Podcasts</string>
+
+    <string name="navigation_drawer_open">Abrir</string>
+    <string name="navigation_drawer_close">Cerrar</string>
+
+    <string name="sign_up">Registrarse</string>
+    <string name="reset_password">Restablecer contraseña</string>
+    <string name="reset_password_text">Por favor, introduce tu nueva contraseña para restablecerla</string>
+    <string name="forget_password">¿Olvidaste tu contraseña?</string>
+    <string name="go_back">Volver</string>
+    <string name="reset_password_title">No te preocupes, solo necesitamos tu correo electrónico registrado</string>
+
+    <string name="premium_title">Escucha sin límites. ¡Prueba Premium ahora!</string>
+    <string name="premium_question">¿Por qué unirse a Premium?</string>
+    <string name="premium_list_1">• Escucha música sin anuncios</string>
+    <string name="premium_list_2">• Descarga para escuchar sin conexión</string>
+    <string name="premium_list_3">• Cancela en cualquier momento</string>
+    <string name="premium_title_2">Planes disponibles</string>
+    <string name="premium_price_1">Individual - ₫59,000 por 2 meses</string>
+    <string name="premium_price_info_1">₫59,000 / mes después\nCuenta Premium</string>
+    <string name="premium_button_1">Elegir plan Individual</string>
+    <string name="premium_price_2">Dúo - ₫79,000 / mes</string>
+    <string name="premium_price_info_2">2 cuentas Premium\nCancela en cualquier momento</string>
+    <string name="premium_button_2">Elegir plan Dúo</string>
+    <string name="premium_price_3">Familiar - ₫99,000 / mes</string>
+    <string name="premium_price_info_3">Hasta 6 cuentas\nIncluye control parental</string>
+    <string name="premium_button_3">Elegir plan Familiar</string>
+
+</resources>

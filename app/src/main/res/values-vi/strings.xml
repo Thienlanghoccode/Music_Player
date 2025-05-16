@@ -1,0 +1,100 @@
+<resources>
+    <string name="app_name">musicplayer</string>
+    <string name="hello_blank_fragment">Xin chào từ fragment trống</string>
+    <string name="user_name">Tên người dùng</string>
+    <string name="email">Email</string>
+    <string name="password">Mật khẩu</string>
+    <string name="confirm_password">Xác nhận mật khẩu</string>
+    <string name="already_have_an_account">Đã có tài khoản?</string>
+    <string name="sign_in">Đăng nhập</string>
+    <string name="don_t_have_an_account">Chưa có tài khoản?</string>
+    <string name="search_hint">Tìm kiếm bài hát, nghệ sĩ...</string>
+    <string name="recommended_today">Đề xuất hôm nay</string>
+    <string name="recently_played">Nghe gần đây</string>
+    <string name="recommended_content">Nội dung gợi ý</string>
+    <string name="top_charts">Bảng xếp hạng</string>
+    <string name="song_list">Danh sách bài hát</string>
+    <string name="search_title">Tìm kiếm bài hát</string>
+    <string name="filter_all">Tất cả</string>
+    <string name="filter_music">Nhạc</string>
+    <string name="filter_podcasts">Podcast</string>
+    <string name="personal_button_description">Hồ sơ cá nhân</string>
+    <string name="default_song_title">Chưa chọn bài hát</string>
+    <string name="default_song_artist">Không có nghệ sĩ</string>
+    <string name="play_pause_description">Phát hoặc tạm dừng nhạc</string>
+
+    <string name="my_playlist_title">Playlist của tôi</string>
+    <string name="view_all">Xem tất cả</string>
+    <string name="recently_played_title">Nghe gần đây</string>
+    <string name="son_tung_mtp_title">Sơn Tùng M-TP</string>
+    <string name="hieuthuhai_title">HIEUTHUHAI</string>
+    <string name="featured_songs_title">Nhạc nổi bật</string>
+    <string name="rending_songs_title">Nhạc thịnh hành</string>
+    <string name="back_description">Quay lại</string>
+    <string name="section_title_placeholder">Tiêu đề mục</string>
+
+    <string name="stop_description">Dừng nhạc</string>
+    <string name="nav_home">Trang chủ</string>
+    <string name="nav_search">Tìm kiếm</string>
+    <string name="nav_library">Thư viện</string>
+    <string name="nav_premium">Premium</string>
+    <string name="no_music_selected">Chưa chọn bài hát</string>
+    <string name="back_button">Quay lại</string>
+    <string name="play_pause_button">Phát/Tạm dừng</string>
+    <string name="next_button">Bài tiếp</string>
+    <string name="prev_button">Bài trước</string>
+    <string name="song_title">Tên bài hát</string>
+    <string name="song_artist">Tên nghệ sĩ</string>
+    <string name="no_time">0:00</string>
+    <string name="trending_songs_title">Nhạc thịnh hành</string>
+    <string name="user">Tài khoản</string>
+    <string name="information">Thông tin</string>
+    <string name="log_out">Đăng xuất</string>
+    <string name="info">
+        Dream Music là một ứng dụng nghe nhạc trực tuyến với nhiều tính năng hấp dẫn như:\n
+        Đăng nhập, đăng ký và khôi phục mật khẩu cho người dùng quên mật khẩu\n
+        Khả năng phát nhạc khi đang ở trong ứng dụng hoặc sau khi thoát ra ngoài\n
+        Giao diện đẹp, thân thiện và dễ sử dụng\n
+        Thư viện âm nhạc phong phú và đa dạng với nhiều thể loại khác nhau
+    </string>
+    <string name="user_no_activity">
+        Không có hoạt động gần đây
+    </string>
+    <string name="cancel">Hủy</string>
+    <string name="save">Lưu</string>
+    <string name="update_account">Cập nhật tài khoản</string>
+    <string name="following">Đang theo dõi 0</string>
+    <string name="update">Cập nhật</string>
+    <string name="explore">Khám phá âm nhạc mới ngay bây giờ!</string>
+    <string name="info_header">Thông tin về ứng dụng</string>
+    <string name="tab_all">TẤT CẢ</string>
+    <string name="tab_music">NHẠC</string>
+    <string name="tab_podcasts">PODCAST</string>
+
+    <string name="navigation_drawer_open">Mở</string>
+    <string name="navigation_drawer_close">Đóng</string>
+
+    <string name="sign_up">Đăng ký</string>
+    <string name="reset_password">Đặt lại mật khẩu</string>
+    <string name="reset_password_text">Vui lòng nhập mật khẩu mới để đặt lại mật khẩu</string>
+    <string name="forget_password">Quên mật khẩu</string>
+    <string name="go_back">Quay lại</string>
+    <string name="reset_password_title">Vui lòng nhập email đã đăng ký của bạn</string>
+
+    <string name="premium_title">Nghe không giới hạn. Dùng thử Premium ngay!</string>
+    <string name="premium_question">Tại sao nên tham gia Premium?</string>
+    <string name="premium_list_1">• Nghe nhạc không quảng cáo</string>
+    <string name="premium_list_2">• Tải về để nghe offline</string>
+    <string name="premium_list_3">• Hủy bất kỳ lúc nào</string>
+    <string name="premium_title_2">Các gói hiện có</string>
+    <string name="premium_price_1">Cá nhân - ₫59,000 cho 2 tháng</string>
+    <string name="premium_price_info_1">₫59,000 / tháng sau đó\nTài khoản Premium</string>
+    <string name="premium_button_1">Chọn gói Cá nhân</string>
+    <string name="premium_price_2">Dành cho 2 người - ₫79,000 / tháng</string>
+    <string name="premium_price_info_2">2 tài khoản Premium\nHủy bất kỳ lúc nào</string>
+    <string name="premium_button_2">Chọn gói Duo</string>
+    <string name="premium_price_3">Gia đình - ₫99,000 / tháng</string>
+    <string name="premium_price_info_3">Tối đa 6 tài khoản\nBao gồm kiểm soát của phụ huynh</string>
+    <string name="premium_button_3">Chọn gói Gia đình</string>
+
+</resources>
