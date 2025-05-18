@@ -122,7 +122,8 @@ public class UpdateUserFragment extends DialogFragment {
         if(!usernameUpdate.getText().toString().isEmpty() && bitmap != null){
             dbHelper.updateUser(new User(email,usernameUpdate.getText().toString(),bitmap));
             Toast.makeText(getActivity(), "Cập nhật thành công", Toast.LENGTH_SHORT).show();
-            ((MainActivity) requireActivity()).loadFragment(new UserFragment());
+            dismiss();
+//            ((MainActivity) requireActivity()).loadFragment(new UserFragment());
         }else{
             Toast.makeText(getActivity(), "Vui lòng nhập đầy đủ thông tin", Toast.LENGTH_SHORT).show();
         }
