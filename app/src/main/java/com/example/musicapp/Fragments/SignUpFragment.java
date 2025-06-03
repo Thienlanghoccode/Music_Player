@@ -62,6 +62,11 @@ public class SignUpFragment extends Fragment {
             emailText.requestFocus();
             return;
         }
+        if (dbHelper.checkEmail(email)) {
+            emailText.setError("Email đã được sử dụng");
+            emailText.requestFocus();
+            return;
+        }
         if (!email.contains("@")) {
             emailText.setError("Invalid email");
             emailText.requestFocus();
@@ -80,6 +85,11 @@ public class SignUpFragment extends Fragment {
         if (!password.equals(passwordConfirm)) {
             passwordConfirmText.setError("Password does not match");
             passwordConfirmText.requestFocus();
+            return;
+        }
+        if (password.length() < 6) {
+            passwordText.setError("Mật khẩu phải có ít nhất 6 ký tự");
+            passwordText.requestFocus();
             return;
         }
 
